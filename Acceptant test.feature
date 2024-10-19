@@ -33,17 +33,6 @@ Feature: Registro de cuenta de institución educativa
     And enviar un correo de verificación
     And redirigir al usuario a la pantalla de bienvenida
     
-Feature: Registro de cuenta de institución educativa
-
-  Scenario: Registro exitoso de cuenta de institución educativa
-    Given el usuario está en la página de registro
-    When ingresa el nombre de la institución, correo, contraseña, número de estudiantes, y consumo de energía
-    Then el sistema debe validar los datos
-    And crear la cuenta de la institución
-    And enviar un correo de verificación
-    And redirigir al usuario a la pantalla de bienvenida
-    
-
 Feature: Inicio de sesión
 
   Scenario: Inicio de sesión exitoso
