@@ -1,3 +1,4 @@
+#USER 1
 Feature: Registro de cuenta personal
 
   Scenario: Registro exitoso de una cuenta personal
@@ -11,7 +12,7 @@ Feature: Registro de cuenta personal
     And enviar un correo de verificación
     And redirigir al usuario a la pantalla de bienvenida
 
-
+#USER 2
 Feature: Registro de cuenta familiar
 
   Scenario: Registro exitoso de una cuenta familiar
@@ -23,6 +24,8 @@ Feature: Registro de cuenta familiar
     And enviar un correo de verificación
     And redirigir al usuario a la pantalla de bienvenida
 
+    
+#USER 3
 Feature: Registro de cuenta de institución educativa
 
   Scenario: Registro exitoso de cuenta de institución educativa
@@ -32,7 +35,8 @@ Feature: Registro de cuenta de institución educativa
     And crear la cuenta de la institución
     And enviar un correo de verificación
     And redirigir al usuario a la pantalla de bienvenida
-    
+
+#USER 4
 Feature: Inicio de sesión
 
   Scenario: Inicio de sesión exitoso
@@ -41,6 +45,7 @@ Feature: Inicio de sesión
     Then el sistema debe validar las credenciales
     And permitir al usuario acceder a su perfil
 
+#USER 5
 Feature: Recuperación de contraseña
 
   Scenario: Recuperación de contraseña exitosa
@@ -49,6 +54,7 @@ Feature: Recuperación de contraseña
     And ingresa su correo registrado
     Then el sistema debe enviar un enlace de recuperación al correo
 
+#USER 6
 Feature: Cálculo de huella de carbono personal
 
   Scenario: Cálculo exitoso de huella de carbono
@@ -57,6 +63,7 @@ Feature: Cálculo de huella de carbono personal
     Then el sistema debe calcular la huella de carbono
     And mostrar los resultados en una gráfica
 
+#USER 7
 Feature: Cálculo de huella de carbono familiar
 
   Scenario: Cálculo exitoso de huella de carbono familiar
@@ -65,6 +72,7 @@ Feature: Cálculo de huella de carbono familiar
     Then el sistema debe calcular la huella de carbono familiar
     And mostrar los resultados en una gráfica
 
+#USER 8
 Feature: Cálculo de huella de carbono de institución educativa
 
   Scenario: Cálculo exitoso de huella de carbono del campus
@@ -73,6 +81,8 @@ Feature: Cálculo de huella de carbono de institución educativa
     Then el sistema debe calcular la huella de carbono de la institución
     And mostrar los resultados en una gráfica
 
+
+#USER 9
 Feature: Registro de actividades personales
 
   Scenario: Registro exitoso de actividades personales
@@ -80,6 +90,8 @@ Feature: Registro de actividades personales
     When ingresa datos de transporte y consumo de energía
     Then el sistema debe actualizar el seguimiento de la huella de carbono diaria
 
+
+#USER 10
 Feature: Registro de actividades familiares
 
   Scenario: Registro exitoso de actividades familiares
@@ -88,6 +100,7 @@ Feature: Registro de actividades familiares
     Then el sistema debe actualizar la huella de carbono familiar
     And mostrar una gráfica del impacto ambiental familiar
 
+#USER 11
 Feature: Registro de actividades del campus
 
   Scenario: Registro exitoso de actividades del campus
@@ -96,6 +109,8 @@ Feature: Registro de actividades del campus
     Then el sistema debe actualizar el seguimiento de la huella de carbono del campus
     And mostrar los resultados en una gráfica
 
+
+#USER 12
 Feature: Recomendaciones personalizadas para usuarios individuales
 
   Scenario: Recomendaciones personalizadas exitosas
@@ -104,6 +119,8 @@ Feature: Recomendaciones personalizadas para usuarios individuales
     Then el sistema debe analizar los datos ingresados
     And mostrar recomendaciones personalizadas para reducir la huella de carbono
 
+
+#USER 13
 Feature: Recomendaciones personalizadas para familias
 
   Scenario: Recomendaciones personalizadas basadas en datos familiares
@@ -111,6 +128,8 @@ Feature: Recomendaciones personalizadas para familias
     When hace clic en "Ver recomendaciones"
     Then el sistema debe mostrar sugerencias específicas para reducir la huella de carbono familiar
 
+
+#USER 14
 Feature: Recomendaciones para instituciones educativas
 
   Scenario: Recomendaciones para la institución educativa
@@ -118,6 +137,8 @@ Feature: Recomendaciones para instituciones educativas
     When hace clic en "Ver recomendaciones"
     Then el sistema debe ofrecer sugerencias para optimizar el consumo energético y la gestión de residuos
 
+
+#USER 15
 Feature: Comparativas de huella de carbono
 
   Scenario: Comparativa de huella de carbono exitosa
@@ -125,6 +146,8 @@ Feature: Comparativas de huella de carbono
     When selecciona un grupo de comparación (amigos, familia, media regional)
     Then el sistema debe mostrar una comparación gráfica de su huella de carbono
 
+
+#USER 16
 Feature: Rankings de sostenibilidad
 
   Scenario: Visualización de ranking de sostenibilidad
@@ -133,6 +156,8 @@ Feature: Rankings de sostenibilidad
     Then el sistema debe mostrar su posición comparada con otros usuarios
     And desglosar las áreas donde puede mejorar
 
+
+#USER 17
 Feature: Acceso a recursos educativos
 
   Scenario: Acceso a recursos educativos
@@ -141,6 +166,8 @@ Feature: Acceso a recursos educativos
     Then el sistema debe mostrar una lista de artículos y videos sobre sostenibilidad
     And permitir al usuario seleccionar y visualizar el contenido de su interés
 
+
+#USER 18
 Feature: Juegos y quizzes educativos
 
   Scenario: Participación en un quiz educativo
@@ -149,6 +176,8 @@ Feature: Juegos y quizzes educativos
     Then el sistema debe mostrar el puntaje final
     And proporcionar retroalimentación sobre las respuestas
 
+
+#USER 19
 Feature: Integración con redes sociales
 
   Scenario: Compartir logros en redes sociales
@@ -156,6 +185,8 @@ Feature: Integración con redes sociales
     When hace clic en "Compartir en redes sociales"
     Then el sistema debe permitir publicar el logro en plataformas como Facebook, Twitter e Instagram
 
+
+#USER 20
 Feature: Gamificación y logros
 
   Scenario: Ganar puntos y desbloquear logros
@@ -164,6 +195,8 @@ Feature: Gamificación y logros
     Then el usuario debería recibir puntos
     And desbloquear logros en función de su progreso    
 
+
+#USER 21
 Feature: Notificaciones y recordatorios
 
   Scenario: Recibir notificaciones sobre el progreso
